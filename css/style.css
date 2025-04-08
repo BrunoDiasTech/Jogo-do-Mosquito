@@ -1,11 +1,14 @@
-body {
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
     background-image: url(imagens/imagemfundo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     overflow: hidden;
-}
+  }
 
 .mosquito1 {
     width: 50px;
@@ -67,9 +70,3 @@ body {
     margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
-    body {
-      background-size: contain;
-      background-position: top;
-    }
-  }
