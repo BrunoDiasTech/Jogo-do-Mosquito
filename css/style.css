@@ -1,7 +1,9 @@
 body {
     background-image: url(imagens/imagemfundo.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -64,3 +66,10 @@ body {
     right: 23%;
     margin-bottom: 10px;
 }
+
+@media (max-width: 600px) {
+    body {
+      background-size: contain;
+      background-position: top;
+    }
+  }
